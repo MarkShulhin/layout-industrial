@@ -1,0 +1,382 @@
+body {
+    background: #212C44;
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: HKGrotesk;
+    src: url('../fonts/HKGrotesk-Light.otf');
+}
+
+@font-face {
+    font-family: LeagueSpartan;
+    src: url('../fonts/LeagueSpartan-Bold.otf');
+}
+
+@font-face {
+    font-family: HKGrotesk-bold;
+    src: url('../fonts/HKGrotesk-Bold.otf');
+}
+
+/* Header */
+
+.container {
+    width: 1160px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 62px;
+    margin-bottom: 62px;
+}
+
+.search {
+    border-bottom: 3px solid #63757e;
+    width: 176px;
+    height: 30px;
+}
+
+.searchInput {
+    background: transparent;
+    border: none;
+    width: 140px;
+    outline: none;
+    padding: 0;
+    color: #92a1a9;
+    font-family: HKGrotesk, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.searchInput::-webkit-input-placeholder {
+    color: #92a1a9;
+    font-family: HKGrotesk, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.kickstarter {
+    float: right;
+    margin-top: 37px;
+    margin-right: 37px;
+}
+
+/* Main styles for text and button in blocks */
+
+.headingText {
+    color: white;
+    font-family: LeagueSpartan, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.contentText {
+    color: white;
+    font-family: HKGrotesk;
+    font-weight: 300;
+}
+
+.button {
+    border: 3px solid #eec9a2;
+    background: transparent;
+    font-family: HKGrotesk-bold, sans-serif;
+    color: white;
+    font-weight: 700;
+}
+
+.button:hover {
+    background:#D6B691;
+    color:#111;
+}
+
+/* Gina */
+.gina {
+    width: 100%;
+    height: 690px;
+    background: url('../img/Gina-product.png') no-repeat;
+    margin-bottom: 40px;
+}
+
+.gina .headingText {
+    width: 221px;
+    height: 70px;
+    font-size: 80px;
+    margin-bottom: 50px;
+}
+
+.gina .contentText {
+    width: 361px;
+    height: 146px;
+    font-size: 32px;
+    margin-bottom: 145px;
+}
+
+.gina .button {
+    width: 160px;
+    height: 60px;
+    font-family: HKGrotesk, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.gina .content {
+    margin-top: 110px;
+    margin-left: 60px;
+}
+
+/* Beoplay  and Leica*/
+
+.medium-items {
+    margin-bottom: 40px;
+}
+
+.beoplay {
+    width: 560px;
+    height: 520px;
+    background-color: #64b8bf;
+    background: url('../img/Beoplay-product.png') no-repeat;
+    margin-right: 40px;
+}
+
+.leica {
+    width: 560px;
+    height: 520px;
+    background-color: #7778c6;
+    background: url('../img/leica-product.png') no-repeat;
+}
+
+.beoplay .headingText,
+.leica .headingText {
+    width: 350px;
+    height: 42px;
+    font-size: 48px;
+    line-height: 43px;
+    display: inline-block;
+    margin-top: 64px;
+    margin-bottom: 30px;
+}
+
+.beoplay .contentText,
+.leica .contentText {
+    width: 443px;
+    height: 52px;
+    font-size: 24px;
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 68px;
+}
+
+.beoplay .button,
+.leica .button {
+    width: 120px;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.leica .content {
+    margin-left: 30px;
+}
+
+.beoplay .content {
+    text-align: right;
+    margin-right: 30px;
+}
+
+/* molekule, p9-signature and dr-11 */
+
+
+.molekule {
+    width: 360px;
+    height: 440px;
+    background: #EB7C61;
+    background: url('../img/molekule-product.png') no-repeat;  
+    margin-right: 40px;
+}
+
+.p9-sig {
+    width: 360px;
+    height: 440px;
+    background: #537683;
+    background: url('../img/p9-product.png') no-repeat;
+    margin-right: 40px;
+}
+
+.dr-11 {
+    width: 360px;
+    height: 440px;
+    background: 81CADA;
+    background: url('../img/dr11-product.png') no-repeat;  
+}
+
+
+.molekule .contentText,
+.dr-11 .contentText {
+    width: 270px;
+    height: 16px;
+    font-size: 16px;
+    margin: 68px auto 20px auto;
+}
+
+.p9-sig .contentText {
+    width: 270px;
+    height: 16px;
+    font-size: 16px;
+    margin: 264px auto 16px auto;
+}
+
+.molekule .headingText,
+.dr-11 .headingText {
+    width: 202px;
+    height: 32px;
+    font-size: 36px;
+    margin: 0 auto 35px auto;
+}
+
+.p9-sig .headingText {
+    width: 300px;
+    height: 32px;
+    font-size: 36px;
+    margin: 0 auto 35px auto;
+}
+
+.molekule .button,
+.dr-11 .button,
+.p9-sig .button  {
+    width: 120px;
+    height: 48px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.molekule .content,
+.dr-11 .content,
+.p9-sig .content {
+    text-align: center;
+}
+
+/* Subscribe */
+
+.subscribe {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 102px;
+}
+
+.subscribeHeading {
+    width: 761px;
+    height: 34px;
+    color: #92a1a9;
+    font-family: HKGrotesk, sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    margin: 158px auto 30px auto;
+}
+
+.subscribeContent {
+    width: 807px;
+    height: 40px;
+    color: #7f919b;
+    font-family: HKGrotesk, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0 auto 55px auto;
+}
+
+.submail {
+    width: 360px;
+    height: 60px;
+    background:transparent;
+    border: 3px solid #63757e;
+    box-sizing: border-box;
+    color: #92a1a9;
+    font-family: HKGrotesk, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    padding: 0;
+    margin: 0 auto 20px auto;
+}
+
+.submail::-webkit-input-placeholder {
+    color: #92a1a9;
+    font-family: HKGrotesk, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    padding: 0;
+}
+
+.submit {
+    border: 3px solid #82c9d8;
+    color: white;
+    font-family: HKGrotesk-bold, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Footer */
+
+.flex-container {
+    display: flex;
+    padding: 0 15px;
+}
+
+.footer-nav {
+    width: 100%;
+    height: 140px;
+}
+
+.links {
+    list-style-type: none;
+    margin: 0 auto;
+    width: 542px;
+    height: 18px;
+    color: #92a1a9;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.circle {
+    height: 18px;
+    color: #92a1a9;
+    font-family: HKGrotesk;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.links li {
+    margin: 0 15px;
+}
+
+
+
+.links a {
+    color: #92a1a9;
+    font-family: HKGrotesk, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: #fff;
+}
+
+.copyright {
+    margin: 33px auto;
+    text-align: center;
+    width: 233px;
+    height: 18px;
+    color: #7f919b;
+    font-family: HKGrotesk, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
