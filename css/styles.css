@@ -6,16 +6,19 @@ body {
 
 @font-face {
     font-family: HKGrotesk;
+    font-weight: normal;
     src: url('../fonts/HKGrotesk-Light.otf');
 }
 
 @font-face {
     font-family: LeagueSpartan;
+    font-weight: 700;
     src: url('../fonts/LeagueSpartan-Bold.otf');
 }
 
 @font-face {
-    font-family: HKGrotesk-bold;
+    font-family: HKGrotesk;
+    font-weight: 700;
     src: url('../fonts/HKGrotesk-Bold.otf');
 }
 
@@ -76,7 +79,7 @@ body {
 
 .contentText {
     color: white;
-    font-family: HKGrotesk;
+    font-family: HKGrotesk, sans-serif;
     font-weight: 300;
 }
 
@@ -210,7 +213,7 @@ body {
 .dr-11 {
     width: 360px;
     height: 440px;
-    background: 81CADA;
+    background: #81CADA;
     background: url('../img/dr11-product.png') no-repeat;  
 }
 
