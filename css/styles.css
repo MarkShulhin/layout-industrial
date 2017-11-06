@@ -92,6 +92,7 @@ body {
 
 .button {
     display: inline-block;
+    text-decoration: none;
     border: 3px solid #eec9a2;
     background: transparent;
     font-family: HKGrotesk-bold, sans-serif;
