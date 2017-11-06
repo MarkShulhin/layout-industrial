@@ -55,7 +55,6 @@ body {
     background: transparent;
     border: none;
     width: 140px;
-    outline: none;
     padding: 0;
     color: #92a1a9;
     font-family: HKGrotesk, sans-serif;
@@ -108,7 +107,7 @@ body {
 
 /* Gina */
 .big-item {
-    width: 100%;
+    width: 1160px;
     height: 690px;
     background: url('../img/gina-product.png') no-repeat;
     margin-bottom: 40px;
@@ -357,6 +356,7 @@ body {
 }
 
 .circle:before {
+    height: 27px;
     content: ' \25CF';
     font-size: 14px;
     color: #92a1a9;
@@ -397,4 +397,10 @@ body {
     clip: rect(0 0 0 0); 
     height: 1px; width: 1px; 
     margin: -1px; padding: 0; border: 0; 
+  }
+
+  /* vertical-align for display:inline-block */
+
+  [display='inline-block'] {
+      vertical-align: baseline;
   }

@@ -6,85 +6,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/styles.min.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Industrial</title>
 </head>
 
 <body>
     <header class="container header">
         <img src="img/logo.png" alt="Logo" width="294" height="72">
-        <div class="search">
+        <div class="search" aria-label="Search through site">
             <img src="img/search.png" alt="search_icon" width="21" height="21">
-            <input type="text" class="searchInput" placeholder="Search">
+            <input type="text" class="searchInput" placeholder="Search" aria-label="Search text input">
         </div>
     </header>
     <main class="flex">
     <section class="container">
-        <h2 class="visuallyHidden">visually hidden</h2>
+        <h2 class="visuallyHidden">Gina product section</h2>
         <article class="big-item">
-            <img src="img/kickstarter-logo.png" alt="kickstarter-logo" width='112' height='115' class="sideLogo">
+            <img src="img/kickstarter-logo.png" alt="kickstarter-logo" width='112' height='115' class="sideLogo" alt="kickstarter logo">
             <div class="content">
                 <h2 class="headingText">gina</h2>
                 <p class="contentText">
                     A coffee instrument combining classic coffee techniques with the latest technology
                 </p>
-                <a class="button">Shop Now</a>
+                <a class="button" tabindex="0" href="/shop"  aria-label="link">Shop Now</a>
             </div>
         </article>
     </section>
 
     <section class="container medium-items">
-        <h2 class="visuallyHidden">visually hidden</h2>
+        <h2 class="visuallyHidden">beoplay a1 product section</h2>
         <article class="mediumItem mediumItemLeft">
             <div class="content">
                 <h2 class="headingText">beoplay a1</h2>
                 <p class="contentText">
                     The ultra-portable Bluetooth speaker that will travel with you anywhere
                 </p>
-                <a class="button">Buy</a>
+                <a class="button" tabindex="0" href="/product" aria-label="link">Buy</a>
             </div>
         </article>
 
+        <h2 class="visuallyHidden">leica mp product section</h2>
         <article class="mediumItem mediumItemRight">
             <div class="content">
                 <h2 class="headingText">leica mp</h2>
                 <p class="contentText">
                     Focused technology for focused photography
                 </p>
-                <a class="button">Buy</a>
+                <a class="button" tabindex="0" href="/product" aria-label="link">Buy</a>
             </div>
         </article>
     </section>
 
     <section class="container small-items">
-        <h2 class="visuallyHidden">visually hidden</h2>
+        <h2 class="visuallyHidden">Molekule product section</h2>
         <article class="smallItem smallItemLeft">
             <div class="content">
                 <p class="contentText">
                     The world’s first molecular air purifier.
                 </p>
                 <h2 class="headingText">molekule</h2>
-                <a class="button">Details</a>
+                <a class="button" tabindex="0" href="/product" aria-label="link">Details</a>
             </div>
         </article>
 
+        <h2 class="visuallyHidden">p9 signature product section</h2>
         <article class="smallItem smallItemMid">
             <div class="content">
                 <p class="contentText">
                     Bowers &amp; Wilkins
                 </p>
                 <h2 class="headingText">p9 signature</h2>
-                <a class="button">Details</a>
+                <a class="button" tabindex="0" href="/product" aria-label="link">Details</a>
             </div>
         </article>
 
+        <h2 class="visuallyHidden">dr2 product section</h2>
         <article class="smallItem smallItemRight">
             <div class="content">
                 <p class="contentText">
                     An homage to Dieter Rams
                 </p>
                 <h2 class="headingText">dr-ii</h2>
-                <a class="button">Details</a>
+                <a class="button" tabindex="0" href="/product" aria-label="link">Details</a>
             </div>
         </article>
     </section>
@@ -95,9 +98,9 @@
         <article class="subscribe">
             <h2 class="subscribeHeading">Get our freshest content delivered to your inbox</h2>
             <p class="subscribeContent">For the latest stories, news, events, promotions and exclusive offers, sign up today. We know you get a lot of emails, but we promise... ours is the one you want.</p>
-            <form action="index.html" class="subForm">
-                <input type="email" name="email" class="submail" placeholder="Your email" required>
-                <button type="submit" class="submail submit">Subscribe</button>
+            <form action="index.html" class="subForm" method="post" aria-label="Subscription form">
+                <input type="email" name="email" class="submail" placeholder="Your email" aria-label="Email text input" required>
+                <button type="submit" class="submail submit" aria-label="submit button">Subscribe</button>
             </form>
         </article>
     </section>
@@ -105,15 +108,15 @@
     <footer class="container">
         <nav class="footer-nav">
             <ul class="links flex-container">
-                <li><a href="/about">About</a></li>
-                <li><span class="circle"></span></li>
-                <li><a href="/search">Search</a></li>
-                <li><span class="circle"></span></li>
-                <li><a href="/contact">Contact</a></li>
-                <li><span class="circle"></span></li>
-                <li><a href="facebook.com">Facebook</a></li>
-                <li><span class="circle"></span></li>
-                <li><a href="twitter.com">Twitter</a></li>
+                <li><a href="/about" aria-label="About link">About</a></li>
+                <li class="circle"></li>
+                <li><a href="/search" aria-label="Search link">Search</a></li>
+                <li class="circle"></li>
+                <li><a href="/contact" aria-label="Contact link">Contact</a></li>
+                <li class="circle"></li>
+                <li><a href="facebook.com" aria-label="Facebook link">Facebook</a></li>
+                <li class="circle"></li>
+                <li><a href="twitter.com" aria-label="Twitter link">Twitter</a></li>
             </ul>
             <div class="copyright">&copy; Industrial Design Magazine</div>
         </nav>
