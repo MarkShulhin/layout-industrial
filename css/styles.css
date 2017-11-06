@@ -337,7 +337,7 @@ body {
 
 .flex-container {
     display: flex;
-    padding: 0 15px;
+    padding: 0 8px;
 }
 
 .footer-nav {
@@ -363,7 +363,7 @@ body {
 }
 
 .links li {
-    margin: 0 15px;
+    margin: 0 8px;
 }
 
 .links a {
@@ -388,3 +388,13 @@ body {
     font-size: 18px;
     font-weight: 300;
 }
+
+/* Visually hidden pattern */
+
+.visuallyHidden { 
+    position: absolute; 
+    overflow: hidden; 
+    clip: rect(0 0 0 0); 
+    height: 1px; width: 1px; 
+    margin: -1px; padding: 0; border: 0; 
+  }
