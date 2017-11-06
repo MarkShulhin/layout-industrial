@@ -345,21 +345,18 @@ body {
     color: #92a1a9;
     justify-content: center;
     align-content: space-between;
+    align-items: baseline;
 }
 
-.circle {
-    height: 18px;
+.circle:before {
+    content: ' \25CF';
+    font-size: 14px;
     color: #92a1a9;
-    font-family: HKGrotesk;
-    font-size: 24px;
-    font-weight: 300;
 }
 
 .links li {
     margin: 0 15px;
 }
-
-
 
 .links a {
     color: #92a1a9;
