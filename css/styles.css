@@ -22,6 +22,14 @@ body {
     src: url('../fonts/HKGrotesk-Bold.otf');
 }
 
+/* FlexBox */
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+
 /* Header */
 
 .container {
@@ -62,7 +70,7 @@ body {
     font-weight: 300;
 }
 
-.kickstarter {
+.sideLogo {
     float: right;
     margin-top: 37px;
     margin-right: 37px;
